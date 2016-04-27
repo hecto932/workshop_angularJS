@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="">
+<head>
+	<meta charset="UTF-8">
+	<title>AngularJS | ng-repeat</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+</head>
+<body>
+	<div ng-init="myFavoriteLang=[
+		{name: 'PHP', extension: '.php'},
+		{name: 'Javascript', extension: '.js'},
+		{name: 'Ruby', extension: '.rb'},
+		{name: 'C++', extension: '.cpp'},
+	]">
+		<p ng-repeat="language in myFavoriteLang">
+			Name : {{ language.name }} <br>
+			Extension: {{ language.extension }}
+		</p>
+	</div>
+</body>
+</html>
