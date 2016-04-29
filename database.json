@@ -2,19 +2,23 @@
 	"records": [
 		{
 			"Name": "Mehul",
-			"Age": "18"
+			"Age": "18",
+			"Fav_color": "Orange"
 		},
 		{
 			"Name": "Jai",
-			"Age": "18"
+			"Age": "18",
+			"Fav_color": "Black"
 		},
 		{
 			"Name": "Alex",
-			"Age": "27"
+			"Age": "27",
+			"Fav_color": "Red"
 		},
 		{
 			"Name": "Anonymous",
-			"Age": "???"
+			"Age": "???",
+			"Fav_color": "green"
 		}
 	]
 }
